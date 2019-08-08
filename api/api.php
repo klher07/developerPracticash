@@ -101,11 +101,11 @@ if(isset($_POST['nombre_funcion']))
   		}
 
 //AQUI CONFIRMMO SI EL NUMERO DE TLF ES DE CARLUIS
-  		if($numero_suscribir1 == '584264194642')
+  		if($numero_suscribir1 == '5804264194642')
   		{
 			$sid1 = 'AC08509bc6c7a73537683589ed890dc43c';
 			$token1 = '778e92fdc4ba8e518bf8f68fbfb0fc61';
-			$telefono_twilio = '+12149976826';  			
+			$telefono_twilio = '+12149976826'; 			
   		}
 		
 //AQUI CONFIRMMO SI EL NUMERO DE TLF ES DE MIGUEL
