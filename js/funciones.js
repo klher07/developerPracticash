@@ -359,7 +359,7 @@ $(document).ready(function(){
 
 		$.ajax({
 			type: "POST",
-			url:"api/api.php",//------------------------
+			url:"../api/api.php",//------------------------
 			data: dataString15,
 			crossDomain: true,
 			cache: false,
@@ -525,7 +525,7 @@ $("#actualizarUsuario").submit(actualizar_usuario)
 			    if(validar_numero_pin == true && validar_correo == true && validar_fecha == true &&  validar_nombre==true)  
 				{			
 					$.ajax({
-						url:'api/api.php',
+						url:'../api/api.php',
 						type: 'POST',
 						data: datos,
 						contentType: false, //para no permitir envio de datos get
@@ -596,7 +596,7 @@ $("#actualizarUsuario").submit(actualizar_usuario)
 //aqui se le pone el nombre que va de bajo de la foto circular
 	$.ajax({
 			type: "POST",
-			url:"api/api.php",//------------------------
+			url:"../api/api.php",//------------------------
 			data: dataString2,
 			crossDomain: true,
 			cache: false,
@@ -705,7 +705,7 @@ $("#imagen").change(function(e) {
 		    }else{ */
 
 				$.ajax({
-					url:'api/api.php',///////////////////
+					url:'../api/api.php',///////////////////
 					type: 'POST',
 					data: datos,
 					contentType: false, //para no permitir envio de datos get
@@ -745,7 +745,7 @@ $("#imagen").change(function(e) {
 
 	$.ajax({
 			type: "POST",
-			url:"api/api.php",
+			url:"../api/api.php",
 			data: dataString3,
 			crossDomain: true,
 			cache: false,
@@ -774,7 +774,7 @@ $("#imagen").change(function(e) {
 
 	$.ajax({
 			type: "POST",
-			url:"api/api.php",
+			url:"../api/api.php",
 			data: dataString5,
 			crossDomain: true,
 			cache: false,
@@ -988,7 +988,7 @@ $("#imagen").change(function(e) {
             {
             $.ajax({
                 type: "POST",
-                url:"api/api.php",
+                url:"../api/api.php",
                 data: dataString6,
                 crossDomain: true,
                 cache: false,
@@ -1114,7 +1114,7 @@ $("#imagen").change(function(e) {
 
 		$.ajax({
 				type: "POST",
-				url:"api/api.php",
+				url:"../api/api.php",
 				data: dataString7,
 				crossDomain: true,
 				cache: false,
@@ -1224,7 +1224,7 @@ $("#imagen").change(function(e) {
 
 				$.ajax({
 						type: "POST",
-						url:"api/api.php",
+						url:"../api/api.php",
 						data: dataString9,
 						crossDomain: true,
 						cache: false,
@@ -1335,7 +1335,7 @@ $("#imagen").change(function(e) {
 
 		$.ajax({
 				type: "POST",
-				url:"api/api.php",
+				url:"../api/api.php",
 				data: dataString5,
 				crossDomain: true,
 				cache: false,
