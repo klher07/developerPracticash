@@ -19,7 +19,16 @@
 		font-weight: 600;
 		text-align: center;
 		height: 60px;
-	}   
+	}  
+	
+	#monto_decimal{
+		font-size: 30px;
+		color: #77C32A;
+		font-family: 'Roboto Regular' 30px;
+		font-weight: 600;
+		text-align: center;
+		height: 60px;
+	}  
 
     h3 {
 		font-family: 'Roboto Regular' 22px;
