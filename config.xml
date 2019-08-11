@@ -27,4 +27,6 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
+    <access origin="*" />
+    <engine name="android" spec="~4.1" />
 </widget>
